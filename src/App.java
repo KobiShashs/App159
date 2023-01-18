@@ -13,6 +13,14 @@ public class App {
        end();
     }
 
+    public static void addTwoNumbers(){
+        System.out.println("pls insert 1st num");
+        int a = scanner.nextInt();
+        System.out.println("pls insert 2nd num");
+        int b = scanner.nextInt();
+        System.out.println("a+b="+(a+b));
+    }
+
 
 
 
@@ -47,7 +55,7 @@ public class App {
        while (action!=9){
            switch (action){
                case 1:
-                   System.out.println("1...");
+                   addTwoNumbers();
                    break;
                case 2:
                    System.out.println("2...");
